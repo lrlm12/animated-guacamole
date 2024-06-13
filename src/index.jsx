@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Leonardo from'./Saludo';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Leonardo nom="amhi"origen="oruro" org="la paz" desc="peludo" des="rigido" imagen="panda.jpg" />
+    
   </React.StrictMode>
 );
 
